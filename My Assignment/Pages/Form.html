@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+
+</head>
+
+<body>
+   
+    <button onclick="history.back()"> Go Back</button>
+
+    <h1 align="center"> Student Registration Form </h1>
+
+<form name="Registration" action="" method="" >
+
+        <table align="center" bgcolor="lightgreen">
+<tr>
+<td>First Name:</td>
+<td><input type="text" name="First Name" required placeholder=" Enter Your Name..."></td>
+</tr>
+<tr>
+    <td>Father Name:</td>
+    <td><input type="text" name="Father Name" required placeholder="Enter Your Father Name..."></td>
+</tr>
+<tr>
+    <td>Date Of Birth:</td>
+    <td><input type="date" name="DOB" required ></td>
+</tr>
+<tr>
+    <td>Email:</td>
+    <td><input type="email" name="email" required placeholder=" Enter Your Email..."></td>
+</tr>
+<tr>
+    <td>Password:</td>
+    <td><input type="password" name="Password" required placeholder=" Enter Your Password..."></td>
+</tr>
+<tr>
+    <td>CNIC#:</td>
+    <td><input type="number" name="CNIC Number" required placeholder=" Enter Your CNIC Number..."></td>
+</tr>
+<tr>
+    <td>Mobile Number:</td>
+    <td><input type="number" name="Number" required placeholder=" Enter Your Mobile Number..."></td>
+</tr>
+<tr>
+    <td>Adress:</td>
+    <td><textarea type="text" name="address" required placeholder=" Enter Your Full Adress..."></textarea></td>
+</tr>
+<tr>
+    <td>Gender:</td> 
+    <td>
+        <input type="radio" name="Gender" id="male" value="male">Male 
+        <input type="radio" name="Gender" id="Female" value="Female">Female
+        <input type="radio" name="Gender" id="Other" value="Other">Other
+    </td>
+</tr>
+<tr>
+    <td>Choose Country:</td>
+    <td> 
+        <select name="Country" id="Country">
+            <option value="">Choose Your Country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Turkey">Turkey</option>
+            <option value="USA">USA</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>Choose One Course:</td>
+    <td>
+        <input type="checkbox" name="course" id="B.A" value="B.A" >B.A
+        <input type="checkbox" name="course" id="B.B.A" value="B.B.A" >B.B.A
+        <input type="checkbox" name="course" id="B.Com" value="B.Com" >B.Com
+        <input type="checkbox" name="course" id="B.Tech" value="B.Tech" >B.Tech
+        <input type="checkbox" name="course" id="M.B.A" value="M.B.A" >M.B.A
+        <input type="checkbox" name="course" id="M.B.B.S" value="M.B.B.S" >M.B.B.S
+</tr>
+<tr>
+    <td>Photo:</td>
+    <td><input type="file" name="Photo " id="Photo" value="Photo"></td>
+</tr>
+<tr>
+    <td></td>
+    <td><input type="submit" name="submit " id="submit" value="submit" required></td>
+</tr>
+    </table>
+
+    </form>
+    
+</body>
+
+</html>
